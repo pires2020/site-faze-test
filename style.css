@@ -1,0 +1,79 @@
+body
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h{
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #89ac6c;
+    background-image: url(./img/wikihow!.png);
+    background-repeat: no-repeat;
+    background-size:40px;
+}
+
+#menu-h p{
+    display: inline;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-h p a{
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+    color: rgb(77, 74, 74);
+    border: 1px solid gray;
+}
+
+#menu-h p a:hover{
+    background-color: #6a796a;
+}
+#menu-h p:last-child a{
+    background-color: #89ac6c;
+}
+body {
+    background-color: rgb(153, 149, 149);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+
+.deus {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1px;
+    margin-left: 40px;
+    
+}
+.wii{
+    display: flex;
+    justify-content: end;
+}
+.tg{
+    display: flex;
+}
+.cool p{
+    background: yellow;
+}
+.div1{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.788);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div2{
+    background-color: white;
+    width: 720px;
+    height: 728px;
+    color: black;
+    font-size: smaller;
+}
